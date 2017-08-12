@@ -41,7 +41,7 @@ function initPeerSession() {
   peer.on('open', function(id) {
     qr.canvas({
       canvas: canvas,
-      value: 'http://avgp.github.io/chromecast-triviatime/controls.html#' + id
+      value: 'http://akram.github.io/chromecast-triviatime/controls.html#' + id
     });
   });
 
